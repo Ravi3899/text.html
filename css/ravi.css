@@ -1,0 +1,681 @@
+.ram {
+    margin: 10px;
+    color: white !important;
+}
+
+.fistrow {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fstul {
+    display: flex;margin: auto; width: 40%;
+}
+@media screen and (min-width : 1200px) and (max-width : 1430px){
+    .fstul {font-size: 12px; width: 50%;}
+}
+@media screen and (min-width : 500px) and (max-width : 1200px){
+    .fstul {font-size: 5px !important; width: 70%;}
+}
+@media screen and (min-width : 280px) and (max-width : 500px){
+    .fstul {font-size: 5px !important; width:100%;}
+}
+
+
+.web {
+    margin: 10px;
+    font-size: 13px;
+    color: white;
+}
+
+.shree {
+    margin: auto;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 70px;
+}
+
+@media screen and (min-width : 280px) and (max-width : 740px) {
+    .shree {
+        font-size: medium;
+    }
+
+
+}
+
+.secsetn {
+    background: url(/images/dungar.jpg);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.to {
+    color: white;
+}
+
+.fstsect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+
+.spn {
+    color: #3498db;
+}
+
+.syam {
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.arnav {
+    width: 100px;
+    background-color: #3498db;
+    height: 100px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.arnav:hover {
+    background-color: black;
+    color: white;
+}
+
+.lbl {
+    padding: 30px 0px;
+    font-size: 30px;
+
+}
+
+.ravt {
+    text-align: center !important;
+}
+
+.design {
+    margin-top: 20px;
+}
+
+.the {
+    color: rgb(137, 129, 129);
+    font-weight: 500;
+}
+
+.fstcontnr {
+    padding: 30px 0px;
+    overflow: hidden;
+}
+
+
+
+.jquery {
+    position: fixed;left: 0; right: 0;top: 0 !important;
+    background-color: aquamarine;
+    animation: query 1s linear;
+}
+
+@keyframes query {
+    0% {
+        margin-top: -50px;
+
+    }
+
+    100% {
+        margin-bottom: 100%;
+    }
+
+}
+
+.secspn {
+    color: #3498db;
+}
+
+.move {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.suro {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px 0px;
+    border: solid 1px white;
+    margin: auto;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+.suro:hover {
+    background-color: white;
+    border: none;
+}
+
+.suro:hover .trdlbl {
+    color: black !important;
+}
+
+.trdlbl {
+    font-size: 20px;
+    color: white;
+}
+
+.lstdv {
+    text-align: center;
+}
+
+.stic {
+    margin-top: 8px;    
+    color: white;
+    font-size: 15px;
+}
+
+.fortsect {
+    background: url(/images/podhe.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.are {
+    color: white;
+}
+
+.fiftrow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gen {
+    color: #3498db;
+}
+
+.cho {
+    margin: auto;
+    text-align: center;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bank {
+    text-align: center;
+}
+
+.bank:hover .sixlbl {
+    color: #3498db;
+}
+
+.sixlbl {
+    font-size: 45px;
+    color: gray;
+    transition: 0.3s;
+}
+
+.svnrow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ect {
+    font-size: 17px;
+    color: grey;
+}
+
+.pre {
+    color: gray;
+}
+
+.no {
+    color: #3498db;
+}
+
+.radhe {
+    margin: auto;
+    text-align: center;
+}
+
+.like {
+    font-size: 30px;
+    color: white;
+}
+@media screen and (min-width:500px) and (max-width:1000px){
+    .like {font-size: 25px !important;}
+}
+@media screen and (min-width:200px) and (max-width:500px){
+    .like {font-size: 22px !important;}
+}
+    
+
+
+.eghtrow {
+    padding: 80px 0px;
+}
+
+.ehtsect {
+    background: url(/images/amerika.jpg);
+    background-position: center;
+
+}
+
+.carousel-inner {
+    padding: 0px 100px;
+    margin-top: 20%;
+}
+
+.clean {
+    font-size: 30px;
+    color: white;
+}
+
+.theme {
+    margin: auto;
+    padding: 40px 0px;
+    margin-bottom: 40px;
+}
+
+.ninesect {
+    background-color: black;
+}
+
+.done {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.past {
+    color: #3498db;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: #af1c1c;
+}
+
+.imgset {
+    width: 100%;
+    border-radius: 80%;
+
+}
+
+.mimg {
+    display: flex;
+    justify-content: end;
+}
+
+.tensect {
+    background: url(/images/school\ giral.jpg);
+    background-position: center;
+}
+
+.jquery {
+    z-index: 1000;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    .jquery {padding: 10px !important;}
+}
+@media screen and (min-width: 500px) and (max-width: 1000px){
+    .navbar { width: 17%; margin: auto;left: 45%; box-sizing: border-box; overflow: hidden;}
+    .ram {font-size: 10px;}
+}
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .navbar { width: 23%; margin: auto;left: 40%; box-sizing: border-box; overflow: hidden;}
+    .ram {font-size: 10px;}
+}
+@media screen and (min-width: 250px) and (max-width: 300px){
+    .navbar { width: 30%; margin: auto;left: 40%; box-sizing: border-box; overflow: hidden;}
+    .ram {font-size: 10px;}
+}
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 550px) {
+
+    .jquery {
+        display: none;
+        background: none;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 550px){
+    .ram {font-size: 10px;}
+    .btn{font-size: 12px;}
+}
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+.ram {font-size: 12px;}
+.btn {font-size: 10px !important; margin-left: 0; padding: 15px 15px !important;}
+.fistrow {padding: 2px !important; background-color: #af1c1c;}
+}
+@media screen and (min-width: 280px) and (max-width: 800px){
+    
+}
+.FST {
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.FSTROW {
+    justify-content: space-between;
+    display: flex !important;
+}
+
+.syamanad {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.team {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.shreeram {
+    margin-bottom: 40px;
+}
+
+.shiva {
+    position: relative;
+    overflow: hidden;
+}
+
+.long {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    opacity: 0%;
+    background-color: black;
+    color: white;
+    left: 15px;
+    right: 15px;
+    top: 15px;
+    text-align: center;
+    transition: 1s;
+}
+
+
+.shiva:hover .long {
+    opacity: 50%;
+}
+
+.nda {
+    color: white;
+    margin-top: 30px;
+}
+
+.img {
+    transition: 1s;
+}
+
+.shiva:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+.img {
+    transition: 5s !important;
+}
+
+.ready {
+    color: #3498db;
+}
+
+.lastrow {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+.nda {
+    color: white;
+}
+
+.visnu {
+    color: blueviolet;
+}
+
+.viswas {
+    margin-bottom: 50px;
+    border-bottom: solid 1px black;
+}
+
+.finlrow {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: #af1c1c;
+
+}
+.secimg {width: 100%;}
+
+.spsldv {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.295);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.spsllbl {
+    color: white;
+    font-size: 35px;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+.eght {
+    display: flex;
+}
+
+.for {
+    font-size: 40px;
+}
+
+.shed {
+    margin: 10px;
+}
+
+.jayshree {
+    margin-bottom: 50px;
+}
+
+.syampare {
+    background: url(/images/video.jpg);
+    background-position: center;
+    padding: 80px 0px;
+}
+
+.tables {
+    margin-top: 30%;
+}
+
+.hand {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+.ket {
+    position: relative;
+    width: 100%;
+}
+
+.ter {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 20px;
+    text-align: center;
+}
+
+.tar {
+    color: white;
+}
+
+.main {
+    position: relative;
+    border: solid 1px black;
+}
+
+.thly {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #af1c1c;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 40px;
+    margin: auto;
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .thly {top: 250px;}
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .thly {top: 200px; left: 50px;}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px){
+    .thly {top: 120px; left: 50px;}
+}
+@media screen and (min-width: 770px) and (max-width: 800px){
+    .thly {top: 100px; left: 50px;}
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 770px){
+    .thly {top: 519px; left: 50px;}
+}
+@media screen and (min-width: 350px) and (max-width: 550px){
+    .thly {top: 330px; left: 50px;}
+}
+@media screen and (min-width: 270px) and (max-width: 350px){
+    .thly {top: 250px; left: 50px;}
+}
+    
+
+
+.list {
+    list-style: none;
+    border-top: solid 1px;
+
+}
+
+.bouns {
+    margin-top: 50px;
+}
+
+.nine {
+    font-size: 35px;
+}
+
+.himmat {
+    width: 100%;
+}
+
+.inpt {
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background: none;
+    color: white;
+    border: solid 1px green;
+}
+
+.shreedev {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.devbv {
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.hnuman {
+    background: url(/images/map.jpg);
+}
+
+.touch {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.lstinp {
+    padding-bottom: 50px;
+}
+
+.rajendr {
+    margin-bottom: 40px;
+}
+
+.ankr {
+    text-decoration: none;
+}
+
+.right {
+    color: white;
+}
+
+.fnlsect {
+    background: url(/images/black.jpg);
+    padding: 50px 0px;
+}
+
+.devbv {
+    position: relative;
+}
+
+.devbv::before {
+    content: '';
+    background-color: aqua;
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    left: 45%;
+}
+
+.imgq {
+    color: white;
+}
+
+.ysraj {
+    text-align: center;
+    margin: auto;
+}
+
+.btn {
+    padding: 8px 35px;
+    background-color: #3498db;
+    margin-left: 40px;
+}
+
+.nnavbarav {
+    align-items: center;
+}

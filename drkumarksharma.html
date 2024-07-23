@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    
+</head>
+<style>
+    .dy {
+        background: linear-gradient(#00aa54, #00aa544a), url(../images/bg4.jpg) center center no-repeat;
+        padding: 20px;
+
+    }
+
+    .di {
+        display: flex;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .la {
+        margin-right: 10%;
+        padding: 10px;
+        display: flex;
+    }
+
+    .or {
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    .co {
+        margin-right: 10px;
+    }
+
+    .rc {
+        width: 20%;
+    }
+
+    .wh {
+        background-color: white;
+        padding: 20px;
+        border-radius: 50px;
+        padding: 10px;
+    }
+
+    .wd {
+        width: 1140px;
+        margin: auto;
+    }
+
+    .drku {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+    .dr {
+        color: green;
+        font-size: 30px;
+    }
+
+    .ku {
+        color: rgb(164, 22, 22);
+        font-size: 30px;
+    }
+
+    .ho {
+        text-decoration: none;
+        margin: 15px;
+    }
+
+    .bu {
+        background-color: green;
+        padding: 7px 15px;
+        color: white;
+        border: none;
+    }
+
+    .admi {
+        width: 1140px;
+        margin: auto;
+        color: white;
+        margin-top: 10%;
+    }
+
+    .fl {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .mi {
+        width: 48%;
+    }
+
+    .and {
+        font-size: 40px;
+    }
+
+    .tt {
+        margin-top: 40px;
+    }
+
+    .now {
+        background-color: red;
+        color: white;
+        padding: 15px 40px;
+        border: none;
+        border: solid 1px;
+        border-radius: 10px;
+    }
+
+    .app {
+        color: white;
+        padding: 15px 40px;
+        border: none;
+        border: solid 1px;
+        background: none;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+    .now:hover {
+        background: none;
+    }
+
+    .smn {
+        width: 48%;
+        background-color: aqua;
+    }
+
+    .mn {
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    .sect {
+        background-color: white;
+    }
+
+    .us {
+        width: 1140px;
+        margin: auto;
+    }
+
+    .ab {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .sp {
+        color: green;
+    }
+
+    .between {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .mndo {
+        width: 48%;
+
+    }
+
+    .do {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .kant {
+        font-size: 20px;
+        color: rgb(6, 6, 46);
+
+    }
+
+    .pre {
+        color: rgb(124, 110, 110);
+    }
+
+    .dis {
+        width: 48%;
+    }
+
+    .rm {
+        padding: 10px 30px;
+        background-color: rgb(34, 126, 34);
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .ment {
+        width: 1140px;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .our {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .treat {
+        color: green;
+        font-size: 40px;
+    }
+
+    .red {
+        width: 32%;
+        background: linear-gradient(#00aa54, #00aa544a);
+
+        border-radius: 20px;
+        padding: 15px 0px;
+        
+    }
+    .red {transition: 1s;transform: scaleX(20deg);}
+
+    .red:hover {
+        background-color: rgb(210, 19, 19);
+        color: white;transform: scaleX(20deg);
+    }
+
+    .sty {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .sheet {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .space {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .opd {
+        margin-top: 80px;
+        font-size: 20px;
+
+    }
+
+    .rhavi {
+        width: 100px;
+        background-color: white;
+        border-radius: 100px;
+        box-sizing: border-box;
+        padding: 25px;
+        margin: auto;
+        color: rgb(232, 21, 21);
+        margin-bottom: 20px;
+    }
+
+    .lali {
+        width: 80px;
+        background-color: white;
+        border-radius: 100px;
+        box-sizing: border-box;
+        padding: 20px 0px;
+        margin: auto;
+        color: green;
+
+    }
+
+    .tyu {
+        overflow: auto;
+        height: 100px;
+    }
+
+    .pregraph {
+        color: white;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .ravi {
+        background-color: rgb(245, 245, 245);
+    }
+
+    .why {
+
+        width: 1140px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 2px;
+    }
+
+    .pan {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .ose {
+        color: green;
+    }
+
+    .care {
+        width: 48%;
+    }
+
+    .cri {
+        color: rgb(41, 227, 41);
+        font-size: 18px;
+    }
+
+    .we {
+        margin-top: 40px;
+        font-size: 26px;
+        color: rgb(8, 8, 26);
+    }
+
+    .pra {
+        color: gray;
+        line-height: 25px;
+    }
+
+    .prakash {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .ashok {
+        width: 100%;
+    }
+
+    .PRINCE {
+        font-size: 20px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .UL {
+        width: 32%;
+        text-align: center;
+    }
+
+    .STETH {
+        font-size: 35px;
+    }
+
+    .KATMANA {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 40px;
+        padding: 20px;
+
+    }
+
+    .top {
+        background-color: white;
+
+    }
+
+    .durg {
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .durga {
+        width: 80%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .tye {
+        width: 50%;
+    }
+
+    .roh {
+        width: 50%;
+        margin-top: 50px;
+
+    }
+
+    .award {
+        font-size: 35px;
+
+        margin-right: 15px;
+        color: rgb(23, 188, 23);
+    }
+
+    .bom {
+        margin-top: 36px;
+        line-height: 50px;
+    }
+
+    .prr {
+        width: 1140px;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .cess {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .work {
+        color: green;
+    }
+
+    .ari {
+        width: 1140px;
+        margin: auto;
+    }
+
+    .back {
+        background-color: rgb(191, 177, 177);
+        width: 21%;
+        text-align: center;
+        padding: 5px 15px;
+        border-radius: 15px;
+    }
+
+    .tanc {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .case {
+        line-height: 26px;
+        font-size: 20px;
+
+    }
+
+    .arrow {
+        font-size: 50px;
+    }
+
+    .piyu {
+        justify-content: space-between;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .all {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .visa {
+        padding: 10px 50px;
+        background-color: green;
+        border: none;
+
+        border-radius: 5px;
+        font-size: 20px;
+        color: white;
+        transition: 1s;
+    }
+
+    .visa:hover {
+        background: none;
+        border: solid 2px green;
+        color: black;
+
+    }
+
+    .nell {
+        width: 1140px;
+        margin: auto;
+        background-color: azure;
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+
+    .rohit {
+        width: 50%;
+    }
+
+    .tmna {
+        width: 50%;
+
+    }
+
+    .arc {
+        font-size: 40px;
+    }
+
+    .consu {
+        color: green;
+    }
+
+    .png {
+        width: 75%;
+    }
+
+    .bairwa {
+        display: flex;
+    }
+
+    .have {
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    .refer {
+        padding: 15px 50px;
+        background-color: green;
+        font-size: 20px;
+        border: none;
+        border: solid 1px;
+        border-radius: 10px;
+    }
+
+    .refer:hover {
+        background: none;
+    }
+
+    .rinku {
+        width: 1140px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .hj {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .saves {
+        color: rgb(28, 172, 28);
+    }
+
+    .kavya {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .kirn {
+        width: 48%;
+
+    }
+
+    .start {
+        color: rgb(41, 177, 41);
+    }
+
+    .piplu {
+        line-height: 30px;
+        color: gray;
+    }
+
+    .nellu {
+        width: 48%;
+    }
+
+    .abhi {
+        width: 100px;
+        background-color: white;
+        border-radius: 100px;
+        box-sizing: border-box;
+        padding: 20px 0px;
+        margin: auto;
+        color: rgb(232, 21, 21);
+        margin-top: 50px;
+
+    }
+
+    .balaji {
+        display: flex;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .snidev {
+        width: 22%;
+        background: linear-gradient(to bottom, #ffffff 18%, #00aa54 199%);
+        text-align: center;
+        padding: 20px 0px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .sure {
+        width: 85px;
+        background-color: green;
+        text-align: center;
+        padding: 10px 0px;
+        border-radius: 100px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .surye {
+        color: white;
+        font-size: 50px;
+    }
+
+    .lksmi {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .visnu {
+        font-size: 17px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+    }
+
+    .buriya {
+        width: 1140px;
+        margin: auto;
+    }
+
+    .monika {
+        text-align: center;
+        font-size: 25px;
+        color: #00AA65;
+        padding: 2px 0px;
+    }
+
+    .devi {
+        width: 26%;
+        background-color: whitesmoke;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .dokra {
+        width: 100%;
+        border-radius: 100px;
+
+    }
+
+    .bgt {
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        border-radius: 100%;
+        /* box-sizing: border-box; */
+        overflow: hidden;
+
+    }
+
+    .bgt img {
+        transition: 1s;
+    }
+
+    .bgt img:hover {
+        transform: skewY(20deg);
+    }
+
+    .tokiya {
+        background-color: aquamarine;
+    }
+
+    .rajesh {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #00AA65;
+    }
+
+    .took {
+        line-height: 20px;
+        color: gray;
+    }
+
+    .purnima {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .make {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .hero {
+        font-size: 35px;
+    }
+
+    .rajawat {
+        color: green;
+    }
+
+    .chopra {
+        width: 35%;
+        margin-top: 50px;
+    }
+
+    .dubai {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .movl {
+        width: 45%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        border: solid 1px;
+        background-color: #99ddc2;
+        box-sizing: border-box;
+    }
+
+    .myhero {
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        border: solid 1px;
+        background-color: #99ddc2;
+        box-sizing: border-box;
+    }
+
+    .yesraj {
+        width: 100%;
+        padding: 60px 20px;
+        border-radius: 5px;
+        border: none;
+        border: solid 1px;
+        background-color: #99ddc2;
+        box-sizing: border-box;
+    }
+
+    .CHORAHA {
+        width: 95%;
+        background-color: red;
+        padding: 10px 0px;
+        border-radius: 5px;
+        border: none;
+        border: solid 1px;
+    }
+
+    .omeri {
+        text-align: center;
+    }
+
+    .resma {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+    }
+
+    .mapp {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .reena {
+        width: 50%;
+    }
+
+    .telephone {
+        text-decoration: none;
+        color: white;
+    }
+
+    .riksa {
+        width: 1140px;
+        margin: auto;
+    }
+
+    .exta {
+        width: 23%;
+        line-height: 30px;
+        color: white;
+    }
+
+    .rawadi {
+        background-color: #00aa54;
+    }
+
+    .ramayen {
+        justify-content: space-between;
+        display: flex;
+    }
+</style>
+
+<body>
+    <section class="dy">
+        <div class="di">
+            <div class="or">
+                <label for="" class="bl">
+                    <link rel="stylesheet"
+                        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+                    <i class="bi bi-alarm"></i>
+                    Consultation Time: 09.00 AM to 03.00 PM
+                </label>
+            </div>
+            <div class="la">
+                <div class="co">
+                    <label for="" class="bl">
+                        <link rel="stylesheet"
+                            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+                        <i class="bi bi-envelope-dash-fill"></i>
+                        unique0022.kks@gmail.com
+                    </label>
+                </div>
+                <div class="cu">
+                    <label for="" class="bl">
+                        <link rel="stylesheet"
+                            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+                        <i class="bi bi-telephone"></i>
+                        +918829062127
+                    </label>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <section class="wh">
+            <div class="wd">
+                <div class="drku">
+                    <div>
+                        <label for="" class="dr">
+                            <i class="bi bi-telephone"></i>
+                            DR.</label>
+                        <label for="" class="ku">KUMAR.K.SHARMA</label>
+                    </div>
+                    <div>
+                        <a href="" class="ho">HOME</a>
+                        <a href="" class="ho">ABOUT</a>
+                        <a href="./panjab.html" class="ho">TREATMENTS</a>
+                        <a href="" class="ho">GALLERY</a>
+                        <a href="" class="ho">CONTACT US</a>
+                        <button class="bu">Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="admi">
+                <div class="fl">
+                    <div class="mi">
+                        <label for="" class="and">Admission and Treatment for</label>
+                        <label for="" class="and">Emergency</label>
+                        <p>A cardiologist is a healthcare provider who can
+                            treat high blood pressure and heart failure,
+                            as well as problems with your heart valves,
+                            blood vessels and other heart and vascular issues.
+                        </p>
+                        <div class="tt">
+                            <button class="now">call now</button>
+                            <button class="app">Appointment</button>
+                        </div>
+                    </div>
+                    <div class="smn">
+                        <img src="https://drkumarcriticare.com/images/icu2.jpg" alt="" class="mn">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="sect">
+        <div class="us">
+            <div>
+                <h1 class="ab">About
+                    <span class="sp">us</span>
+                </h1>
+            </div>
+            <div class="between">
+                <div class="mndo">
+                    <img src="https://drkumarcriticare.com/images/p5.jpeg" alt="" class="do">
+                </div>
+                <div class="dis">
+                    <label for="" class="kant">Dr. Kumar Kant Sharma</label>
+                    <p class="pre">Dr. Kumar Kant Sharma, a Distinguished Clinical Cardiology Consultant and Critical
+                        Care
+                        Specialist at
+                        Monilek Hospital in Jaipur, Stands as a Beacon of Expertise in the Field of Cardiovascular
+                        Health.
+                        Graduating with a Postgraduate Diploma in Clinical Cardiology from Bala Bhai Nanawati Hospital
+                        in
+                        Mumbai,
+                        India, Dr. Sharma Has Dedicated the Last Decade to the Relentless Pursuit of Excellence in
+                        Patient
+                        Care.
+                        His Proficiency Extends Beyond Routine Cardiology, Encompassing a Mastery of Critical Care. Dr.
+                        Sharma Has Emerged as a Trusted Figure in Handling Challenging Emergencies, Traumas, and
+                        Critical
+                        Cases,
+                        Showcasing His Ability to Navigate the Complexities of Life-Threatening Situations.
+
+                        His Quick Thinking and Decisive Actions Have Led to the Successful Rescue of Numerous Lives,
+                        Earning Him a Reputation as a Reliable and Skilled Healthcare Professional. with a Focus on Both
+                        Preventive and Clinical Cardiology, Dr. Kumar Kant Sharma Is Committed to Promoting Heart Health
+                        and
+                        Preventing Cardiovascular Diseases. His Holistic Approach to Patient Care, Coupled with a Wealth
+                        of
+                        Experience,
+                        Positions Him as a Respected Figure in the Medical Community, Dedicated to Making a Positive
+                        Impact
+                        on
+                        the Lives of Those He Serves.
+
+                    </p>
+                    <div>
+                        <button class="rm">Read More</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="ment">
+            <div>
+                <h1 class="our">Our
+                    <span class="treat">Treatment</span>
+                </h1>
+            </div>
+            <div class="space">
+                <div class="red">
+                    <div class="sty">
+                        <div class="sheet">
+                            <div class="rhavi">
+                                <label for="">
+
+                                    <i class="bi bi-balloon-heart"></i>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="" class="opd">General & Cardic OPD</label>
+                            <div class="tyu">
+                                <p class="pregraph">Cardiac OPD(outpatient department) procedures
+                                    are the ones that are performed
+                                    on the daily basis and do not require a hospital stay.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="red">
+                    <div class="sty">
+                        <div class="rhavi">
+                            <label for="" class="sheet">
+
+                                <i class="bi bi-balloon-heart"></i>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="" class="opd">General & Cardic OPD</label>
+                            <div class="tyu">
+                                <p class="pregraph">Cardiac OPD(outpatient department) procedures
+                                    are the ones that are performed
+                                    on the daily basis and do not require a hospital stay.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="red">
+                    <div class="sty">
+                        <div class="rhavi">
+                            <label for="" class="sheet">
+
+                                <i class="bi bi-balloon-heart"></i>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="" class="opd">General & Cardic OPD</label>
+                            <div class="tyu">
+                                <p class="pregraph">Cardiac OPD(outpatient department) procedures
+                                    are the ones that are performed
+                                    on the daily basis and do not require a hospital stay.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space">
+                <div class="red">
+                    <div class="sty">
+                        <div class="rhavi">
+                            <label for="" class="sheet">
+
+                                <i class="bi bi-balloon-heart"></i>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="" class="opd">General & Cardic OPD</label>
+                            <div class="tyu">
+                                <p class="pregraph">Cardiac OPD(outpatient department) procedures
+                                    are the ones that are performed
+                                    on the daily basis and do not require a hospital stay.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="red">
+                    <div class="sty">
+                        <div class="rhavi">
+                            <label for="" class="sheet">
+
+                                <i class="bi bi-balloon-heart"></i>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="" class="opd">General & Cardic OPD</label>
+                            <div class="tyu">
+                                <p class="pregraph">Cardiac OPD(outpatient department) procedures
+                                    are the ones that are performed
+                                    on the daily basis and do not require a hospital stay.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="red">
+                    <div class="sty">
+                        <div class="rhavi">
+                            <label for="" class="sheet">
+
+                                <i class="bi bi-balloon-heart"></i>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="" class="opd">General & Cardic OPD</label>
+                            <div class="tyu">
+                                <p class="pregraph">Cardiac OPD(outpatient department) procedures
+                                    are the ones that are performed
+                                    on the daily basis and do not require a hospital stay.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="ravi">
+        <div class="why">
+            <div>
+                <h1 class="pan">Why
+                    <span class="ose">Choose Us</span>
+                </h1>
+            </div>
+            <div class="prakash">
+                <div class="care">
+                    <div>
+                        <label for="" class="cri">Dr. Kumar Kant Sharma Clinical Cardiology & Critical Care
+                            Specialist</label>
+                        <br>
+                        <br>
+                        <label for="" class="we">We Provide The Best Clinical <br>
+                            Cardiology & Critical Care Treatment To <br>
+                            Our Patient
+                        </label>
+                        <p class="pra">Specializing in Clinical Cardiology, Our Practice Prioritizes the Prevention and
+                            Treatment of
+                            Cardiac Ailments Through Lifestyle Modification and Optimal Medical Care, Avoiding Surgical
+                            Interventions Like Bypass or Stenting. Our Expertise Extends to Adeptly Managing Cardiac and
+                            Various Critical Medical Cases. with a Commitment to Non-Invasive Approaches, We Strive to
+                            Enhance Heart Health Through Personalized Strategies and Advanced Medical Treatments.
+                            Trust Us for Comprehensive Care That Emphasizes Well-Being Without the Need for Invasive
+                            Procedures.
+                            Your Health Is Our Foremost Concern, and We Are Dedicated to Ensuring a Holistic and
+                            Effective
+                            Approach
+                            to Cardiovascular and Critical Care.</p>
+                        <p class="pra">We Provide Best Clinical Cardiology & Critical Care treatment aviailable .
+                            We Treat High/Low Blood Pressure and Heart Failure, as Well as Problems With Your Heart
+                            Valves,
+                            Blood Vessels and Other Heart and Vascular Issues.
+                        </p>
+                    </div>
+                </div>
+                <div class="care">
+                    <img src="https://drkumarcriticare.com/images/27.jpg" alt="" class="ashok">
+                </div>
+            </div>
+            <DIv class="KATMANA">
+                <div class="UL">
+                    <div class="lali">
+                        <label for="" class="STETH">
+                            <i class="bi bi-person-check-fill"></i>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="" class="PRINCE">EXPRIENCE</label>
+                    </div>
+                </div>
+                <div class="UL">
+                    <div class="lali">
+                        <label for="" class="STETH">
+                            <i class="bi bi-heart-pulse-fill"></i>
+
+
+                        </label>
+                    </div>
+                    <div>
+                        <label for="" class="PRINCE">TECHNIKAL SKILS</label>
+                    </div>
+                </div>
+                <div class="UL">
+                    <div class="lali">
+                        <label for="" class="STETH">
+
+                            <i class="bi bi-cup-fill"></i>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="" class="PRINCE">ACHIVMENT AND AWORDS</label>
+                    </div>
+                </div>
+            </DIv>
+        </div>
+    </section>
+    <SEction class="top">
+        <div class="durg">
+            <div class="tyi">
+                <img src="https://drkumarcriticare.com/images/14.jpeg" alt="" class="durga">
+            </div>
+            <div class="roh">
+                <label for="" class="award">ACHIEVEMENTS & AWARD</label>
+                <div class="bom">
+                    <div>
+                        <input type="checkbox">
+                        <label for=""> ACLS and ITLS trained in Bombay hospital</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for=""> Lifemember of Indian Medical Association</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for=""> Lifemember of Indian Academy of Echocardiography</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for=""> Lifemember of India Association of Clinical Cardiologist</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for=""> ACLS and ITLS trained in Bombay hospital</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for=""> ACLS and ITLS trained in Bombay hospital</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prr">
+            <div>
+                <div>
+                    <h1 class="cess">Our
+                        <span class="work">Work Process</span>
+                    </h1>
+                </div>
+                <div ari>
+                    <div class="balaji">
+                        <div class="snidev">
+                            <div class="romiyo">
+                                <div class="sure">
+                                    <label for="" class="surye">
+                                        <i class="bi bi-heart-pulse-fill"></i>
+                                    </label>
+                                </div>
+                                <div class="lksmi">
+                                    <label for="">CONSULTANCY</label>
+                                </div>
+                                <div class="visnu">
+                                    <p>Clinical Cardiology and Critical Case Consultancy,</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="snidev">
+                            <div class="romiyo">
+                                <div class="sure">
+                                    <label for="" class="surye">
+                                        <i class="bi bi-bank"></i>
+                                    </label>
+                                </div>
+                                <div class="lksmi">
+                                    <label for="">CONSULTANCY</label>
+                                </div>
+                                <div class="visnu">
+                                    <p>Clinical Cardiology and Critical Case Consultancy,</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="snidev">
+                            <div class="romiyo">
+                                <div class="sure">
+                                    <label for="" class="surye">
+                                        <i class="bi bi-clipboard-heart-fill"></i>
+                                    </label>
+                                </div>
+                                <div class="lksmi">
+                                    <label for="">CONSULTANCY</label>
+                                </div>
+                                <div class="visnu">
+                                    <p>Clinical Cardiology and Critical Case Consultancy,</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="snidev">
+                            <div class="romiyo">
+                                <div class="sure">
+                                    <label for="" class="surye">
+                                        <i class="bi bi-calendar2-plus"></i>
+                                    </label>
+                                </div>
+                                <div class="lksmi">
+                                    <label for="">CONSULTANCY</label>
+                                </div>
+                                <div class="visnu">
+                                    <p>Clinical Cardiology and Critical Case Consultancy,</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="all">
+                        <button class="visa">viw all</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="nell">
+            <div class="bairwa">
+                <div class="rohit">
+                    <img src="https://drkumarcriticare.com/images/p3.png" alt="" class="png">
+                </div>
+                <div class="tmna">
+                    <h1 class="arc">Call Us For
+                        <span class="consu">Consultation</span>
+                    </h1>
+                    <p class="have">If you have any problems related to cardiology,
+                        then call today and fix an appointment.
+                    </p>
+                    <button class="refer">call now</button>
+                </div>
+            </div>
+        </div>
+        <div class="rinku">
+            <div>
+                <div>
+                    <h1 class="hj">CPR
+                        <span class="saves"> SAVES LIVES</span>
+                    </h1>
+                </div>
+                <div class="kavya">
+                    <div class="kirn">
+                        <h2>What Is CPR And How To Perform It?</h2>
+                        <p class="piplu">CPR is a life-saving first aid and increases the person’s chances of survival.
+                            By performing CPR, you circulate the blood so it can provide oxygen to the body,
+                            the brain and the other organs. Even if you are not sure whether a person is in cardiac
+                            arrest or not,
+                            you should start CPR. If a person does not require CPR, they will probably respond to your
+                            attempts.
+                            By performing CPR, you are unlikely to cause any harm to the person.
+                            That's why it's imperative for everyone to know CPR.
+                        </p>
+                        <h3 class="start">Start CPR:</h3>
+                        <p class="piplu">Press hard and fast in center of chest. Goal is 100 compressions per minute.
+                            (Faster than once per second, but slower than twice per second.)
+                        </p>
+                        <p class="piplu">Use 2 hands: The heel of one hand and the other hand on top
+                            (or one hand for children under 8 years old), pushing to a depth of 2 inches
+                            (or 1/3rd the depth of the chest for children under 8 years old.
+                        </p>
+                    </div>
+                    <div class="nellu">
+                        <img src="https://drkumarcriticare.com/images/cpr.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </SEction>
+    <SEction class="tokiya">
+        <div class="buriya">
+            <div>
+                <div class="monika">
+                    <h1> Testimonial</h1>
+                </div>
+            </div>
+            <div class="purnima">
+                <div class="devi">
+                    <div class="bgt">
+                        <img src="https://drkumarcriticare.com/images/tm3.jpg" alt="" class="dokra">
+                    </div>
+                    <div class="rajesh">
+                        <label for="">Mr. Rajesh ji</label>
+                    </div>
+                    <div class="took">
+                        <p>Thanks to all the people who took care of me and
+                            special thanks to Dr Kumar K Sharma who gave me
+                            a wonderful treatment and gave me a new life.
+                        </p>
+                    </div>
+                </div>
+                <div class="devi">
+                    <div class="bgt">
+                        <img src="https://drkumarcriticare.com/images/tm2.jpg" alt="" class="dokra">
+                    </div>
+                    <div class="rajesh">
+                        <label for="">Minakshi Sharma</label>
+                    </div>
+                    <div class="took">
+                        <p>Thanks to all the people who took care of me and
+                            special thanks to Dr Kumar K Sharma who gave me
+                            a wonderful treatment and gave me a new life.
+                        </p>
+                    </div>
+                </div>
+                <div class="devi">
+                    <div class="bgt">
+                        <img src="https://drkumarcriticare.com/images/tm1.jpg" alt="" class="dokra">
+                    </div>
+                    <div class="rajesh">
+                        <label for="">Sunita Devi</label>
+                    </div>
+                    <div class="took">
+                        <p>Thanks to all the people who took care of me and
+                            special thanks to Dr Kumar K Sharma who gave me
+                            a wonderful treatment and gave me a new life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="make">
+                    <h1 class="hero">Make
+                        <span class="rajawat">An Appointment</span>
+                    </h1>
+                </div>
+                <div class="mapp">
+                    <div class="chopra">
+                        <div class="dubai">
+                            <input type="text" placeholder="enter name" class="movl">
+                            <input type="text" placeholder="mobile name" class="movl">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" placeholder="enter your mail" class="myhero">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" placeholder="massage" class="yesraj">
+                        </div>
+                        <br>
+                        <div class="omeri">
+                            <button class="CHORAHA">
+                                <a href="" class="resma">SUBMIT</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="reena">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d113873.48985092605!2d75.80221439999998!3d26.886143999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1704210897802!5m2!1sen!2sin"
+                            height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </SEction>
+    <section class="rawadi">
+        <div class="riksa">
+            <div class="ramayen">
+                <div class="exta">
+                    <div>
+                        <h2>Reach at..</h2>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-telephone-outbound-fill"></i> call 918829763557
+                            </a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-envelope-arrow-down-fill"></i> unquen kk.@gmail
+                                .com</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-geo-alt-fill"></i> Monika Hospital Jawaher
+                                nager jaipur rajsthan 302007</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="exta">
+                    <div>
+                        <h2>Our Specialities</h2>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-telephone-outbound-fill"></i> Consultancy</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-envelope-arrow-down-fill"></i> Clinical
+                                Cardiology Consultancy</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-geo-alt-fill"></i> Critical care
+                                Consultancy</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-geo-alt-fill"></i>Emergency Care
+                                Consultancy</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-geo-alt-fill"></i>ICU/CCU Addmission</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"><i class="bi bi-geo-alt-fill"></i>Cardiology Diagnostic
+                                Tests.</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="exta">
+                    <div>
+                        <h2>Links</h2>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone"> HOME</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone">ABOUT</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone">TREATMENT</a>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone">GALLERY</a>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="">
+                            <a href="" class="telephone">CONTACT US</a>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        
+    </section>
+
+
+
+
+</body

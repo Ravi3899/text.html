@@ -1,0 +1,164 @@
+.me {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.fasbook {
+    margin: 10px;
+}
+
+.test {
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.firstsec {
+    background-color: aliceblue;
+}
+
+.nav-link {
+    margin: 15px;
+}
+
+.ravi {
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.our {
+    color: blue;
+}
+
+.make {
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.pell {
+    font-size: 20px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.lalawat {
+    background-color: aqua;
+}
+
+.src {
+    box-sizing: border-box;
+    padding: 25px 10px;
+}
+
+.right {
+    margin-top: 10%;
+}
+
+.romash {
+    background-color: aliceblue;
+}
+
+.thro {
+    justify-content: space-between;
+   
+    background-color: aqua;
+}
+
+.card {
+    text-align: center;
+}
+
+
+
+
+
+.RADIKA {
+    margin-top: 70px;
+}
+
+.ramesh {
+    justify-content: space-between;
+    display: flex;
+}
+
+.prtik {
+    justify-content: space-between;
+  
+    margin-top: 50px;
+}
+
+.best {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.years {
+    font-size: 45px;
+}
+
+.fus {
+    line-height: 30px;
+    color: gray;
+    font-size: 17px;
+}
+
+.label {
+    font-size: 25px;
+}
+
+.more { border: none;border: solid 1px black;padding: 12px 40px;font-size: 20px;border-radius: 30px;background: none;transition: 1s;}
+.more:hover {color: white;}
+
+
+
+
+
+@media screen and (min-device-width: 150px) and (max-device-width: 550px) { 
+  
+   .make{
+    font-size: 25px;
+    line-height: 30px;
+   }
+   .best{
+    margin-top: 30px;
+   }
+   .years{
+    font-size: 26px;
+   }
+   .more {
+    border: none;
+    border: solid 1px black;
+    padding: 9px 29px;
+    font-size: 15px;
+    border-radius: 30px;
+    background: none;
+    transition: 1s;
+}
+}
+
+@media screen and (min-device-width: 551px) and (max-device-width: 768px) { 
+  
+    .make{
+     font-size: 30px;
+     line-height: 50px;
+    }
+    .best{
+     margin-top: 30px;
+    }
+    .years{
+     font-size: 26px;
+    }
+    .more {
+     border: none;
+     border: solid 1px black;
+     padding: 9px 29px;
+     font-size: 15px;
+     border-radius: 30px;
+     background: none;
+     transition: 1s;
+ }
+ }
+ 
+

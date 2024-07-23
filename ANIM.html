@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .jero {
+            width: 50%;
+            height: 900px;
+            background-color: black;
+            position: relative;
+            margin: auto;
+        }
+
+        .pass {
+            position: absolute;
+            width: 3%;
+            padding: 20px;
+            height: 19px;
+            border-radius: 100%;
+            background-color: white;
+            position: absolute; top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            animation: ravi linear 2s;
+            
+            
+        }
+
+        @keyframes ravi {
+            50% {
+                margin-top: 50px;
+            }
+
+            50% {
+                margin-right: 50px;vb
+            }
+
+            75% {
+                margin-left: 50px;
+            }
+
+        }
+        .fstdv {width: 50%; margin: auto; background-color: aqua; padding: 10px;}
+        .fstul {list-style: none; display: flex; text-align: center;}
+        .fstli {margin: 10px;}
+        
+    </style>
+</head>
+
+<body>
+    <div class="fstdv">
+        <ul class="fstul">
+            <li class="fstli">home</li>
+            <li class="fstli">home</li>
+            <li class="fstli">home</li>
+            <li class="fstli">home</li>
+            <li class="fstli">home</li>
+        </ul>
+    </div>
+    <div class="jero">
+        <div class="pass">
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script>
+        $(document).ready(function() {
+          $(window).scroll(function(){
+              if ($(this).scrollTop() > 20) {
+                 $('.fstdv').addClass("praksh");
+              } else {
+                 $('.fstdv').removeClass("praksh");
+              }
+          });
+        });
+        </script>
+</body>
+
+</html>

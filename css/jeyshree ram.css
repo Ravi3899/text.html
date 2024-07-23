@@ -1,0 +1,605 @@
+.spn {
+    font-size: 15px;
+    color: white;
+}
+
+.akr {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.btn {
+    padding: 13px 20px;
+    background-color: blueviolet;
+    border-radius: 40px;
+}
+
+.fstul {
+    margin: auto;
+    text-align: center;
+}
+
+.fstrow {
+    justify-content: space-between;
+    display: flex;
+    align-items: center !important;
+}
+
+.fsthend {
+    font-size: 57px;
+    color: white;
+}
+.copyfsthend {font-size: 57px;
+    color: white !important; }
+
+.fstdiv {
+    text-align: center;
+    margin: auto;
+}
+
+.navbar-toggler {
+    margin: inherit;
+    margin-left: auto;
+    color: aqua;
+}
+
+.spne {
+    color: #5D56F1;
+}
+
+.active {
+    color: white !important;
+}
+
+.fstdiv {
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.secsections {
+    background-color: black;
+}
+
+.fistsectons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn::before {
+    content: '';
+    background-color: white;
+    width: 100%;
+    height: 0.5px;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    opacity: 20%;
+}
+
+.img {
+    width: 60%;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bu {
+    margin: 10px;
+}
+
+.firstimgs {
+    text-align: center;
+}
+
+
+
+.trdsect {
+    background-color: #5D56F1;
+}
+
+
+
+.fortdv {
+    margin: auto !important;
+}
+
+.buttondv {
+    text-align: center;
+}
+
+.secankr {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fistul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+
+}
+
+.listing {
+    color: white;
+    margin: 10px;
+    align-items: center !important;
+}
+
+.fstspn {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.secspn {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+.ankerbu {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.button {
+    background: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    color: white;
+    border-radius: 40px;
+    background-color: black;
+    border: none;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: #5D56F1;
+}
+
+
+.buttons {
+    background: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    color: white;
+    border-radius: 40px;
+    background-color: #5D56F1;
+    border: none;
+}
+
+@media screen and (max-width:600px)and (max-width:400px) {
+    .buttons {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 13px;
+    }
+
+    .henh4 {
+        font-size: 31px !important;
+    }
+
+    .lastbtn {
+        font-size: 13px;
+    }
+
+    .lastbtn {
+        padding: 14px 26px;
+    }
+    .tont {font-size: 14px !important;}
+
+}
+
+@media screen and (max-width:400px) and (min-width:270px) {
+    .buttons {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 13px;
+    }
+
+    .henh4 {
+        font-size: 38px !important;
+    }
+
+    .lastbtn {
+        font-size: 13px;
+    }
+
+    .lastbtn {
+        padding: 14px 26px;
+    }
+
+}
+
+.now {
+    padding: 13px 18px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    background-color: #5D56F1;
+    border: none;
+    border-radius: 40px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+.fstbuton {
+    margin-top: 30px
+}
+
+.conte {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.henh3 {
+    font-size: 17px;
+    opacity: 70%;
+}
+
+.henh4 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.fifthdv {
+    margin-bottom: 50px;
+}
+
+.trdhend {
+    font-size: 50px;
+    color: white;
+    ;
+}
+
+.lastbtn {
+    padding: 14px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    border: none;
+}
+
+.lastdv {
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.lastsect {
+    background-color: #5D56F1;
+}
+
+.hndh3 {
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.hndh4 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.seclstdv {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.fstlbl {
+    font-size: 50px;
+    color: #5D56F1;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-text {
+    color: gray;
+}
+
+.card {
+    text-align: center;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 25px 10px;
+}
+
+.forthsect {
+    background-color: aliceblue;
+}
+
+.fiftdv {
+    padding: 70px 0px;
+}
+
+.list {
+    list-style: none;
+
+
+
+
+    color: white;
+}
+
+.get {
+    font-size: 50px;
+    color: white;
+}
+
+.finldv {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.lastul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon {
+    font-size: 17px;
+    margin: 5px;
+}
+
+.finlsectin {
+    background-color: #5D56F1;
+    padding: 50px 0px;
+}
+
+.finldv {
+    position: relative;
+}
+
+.finldv::before {
+    content: '';
+    background-color: whitesmoke;
+    width: 60%;
+    height: 0.5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 105%;
+    margin: auto;
+    opacity: 50%;
+}
+
+.lastbtn {
+    transition: 0.3s;
+}
+
+
+.lastbtn:hover {
+    background-color: #FFFFFF;
+    color: #5D56F1;
+}
+
+.h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.fistsectons {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.small {
+    background-color: rgb(196, 196, 155) !important;
+    animation: prakash 1s linear;
+}
+
+.navbar-toggler {
+    background-color: #FFFFFF;
+    margin-left: inherit;
+    font-size: 20px;
+    margin: auto;
+    margin-left: inherit;
+}
+
+.fstimges {
+    width: 100%;
+}
+
+.rwosec {
+    justify-content: space-between;
+    display: flex !important;
+}
+.fstcol {text-align: center;}
+.navbar-expand-lg {text-align: center;}
+.navbar-nav {margin: auto; align-items: center;}
+
+
+@keyframes prakash {
+    0% {
+        margin-top: -50px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width:1200px) and (min-width:1000px) {
+    .fstspn {
+        font-size: 14px;
+    }
+
+    .secspn {
+        font-size: 16px;
+    }
+    .fsthend {font-size: 40px;}
+    .copyfsthend {font-size: 40px;}
+}
+
+@media screen and (max-width:1000px) and (min-width:600px) {
+    .fstspn {
+        font-size: 11px;
+    }
+    .fsthend {font-size: 32px;}
+    .copyfsthend {font-size: 32px;}
+
+    .secspn {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:300px) {
+    .fstspn {
+        font-size: 9px;
+    }
+    .fsthend {margin-top: -46px !important;}
+    .copyfsthend {margin-top: 11px !important;}
+
+    .secspn {
+        font-size: 9px;
+    }
+    .fstdiv {margin-top: 25%;}
+    .gler {margin: unset;}
+    .navbar-nav {justify-content: end;}
+}
+
+@media screen and (max-width:800px) and (min-width:700px) {
+    .fstimges {
+        width: 30%;
+    }
+    .gler {margin: unset;}
+    .navbar-nav {justify-content: end;}
+}
+
+@media screen and (max-width:1000px)and (min-width:700px) {
+    .fstcol {
+        width: auto
+    }
+}
+.firstsection {background-color:blueviolet;}
+.btnfst {background-color: #5D56F1;}
+
+
+
+
+@media screen and (max-width: 700px) and (min-width:500px) {
+
+    .fsthend {
+        font-size: 30px;
+    }
+    .copyfsthend {font-size: 30px;}
+
+    .fstimges {
+        width: 20%;
+    }
+
+    .trdhend {
+        font-size: 28px;
+    }
+
+    .get {
+        font-size: 25px;
+    }
+
+    .h2 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 500px) and (min-width:270px) {
+    .fsthend {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .copyfsthend {font-size: 20px;
+        margin-top: 30px;}
+
+    .fstimges {
+        width: 20%;
+    }
+
+    .trdhend {
+        font-size: 17px;
+    }
+
+    .get {
+        font-size: 15px;
+    }
+
+    .h2 {
+        font-size: 12px;
+    }
+
+    .hndh4 {
+        font-size: 27px;
+    }
+
+    .ankerbu {
+        padding: 15px
+    }
+
+    .henh4 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width:400px) {
+    .listing {
+        font-size: 12px;
+    }
+
+    .list {
+        font-size: 12px;
+    }
+
+    .icon {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width:250px) {
+    .listing {
+        font-size: 8px;
+    }
+
+    .list {
+        font-size: 8px;
+    }
+
+    .icon {
+        font-size: 8px;
+    }
+
+}

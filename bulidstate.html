@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+        .firstankr {
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+            margin: 3px;
+            transition: 0.5s;
+        }
+
+        .firstspn {
+            margin: 7px;
+            font-size: 12px;
+            color: rgb(223, 76, 76);
+            transition: 0.5s;
+        }
+
+        .fisrtdv {
+            justify-content: space-between;
+            display: flex;
+            padding: 10px;
+            align-items: center;
+
+        }
+
+        @media screen and (min-width: 280px) and (max-width: 1400px) {
+
+
+            .fisrtdv {
+                display: none;
+            }
+
+        }
+
+        @media screen and (min-width: 700px) and (max-width: 1400px) {
+            .secdiv {
+                margin-top: -3px !important;
+                padding: 5px;
+            }
+
+            .buttonsra {
+                font-size: 12px;
+            }
+
+        }
+
+        @media screen and (min-width: 900px) and (max-width: 1150px) {
+            .secart {
+                font-size: 12px;
+            }
+        }
+
+        @media screen and (min-width: 280px) and (max-width: 900px) {
+            .buttonsra {
+                font-size: 9px;
+            }
+        }
+
+
+
+        .firstsec {
+            background-color: black;
+        }
+
+        .firstankr:hover {
+            color: gray;
+        }
+
+        .firstspn:hover {
+            color: gray;
+        }
+
+        .secart {
+            margin: 10px;
+            color: white !important;
+            transition: 0.5s;
+        }
+
+        .secart:hover {
+            color: brown !important;
+        }
+
+        .secdiv {
+            justify-content: space-between;
+            display: flex;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            align-items: center;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+
+        .secsct {
+            background: url(images/BULGING.jpg);
+            background-position: center;
+            position: relative
+        }
+
+        .SALES {
+            position: relative;
+            overflow: hidden;
+
+
+        }
+
+        .SALES img {
+            transition: 0.5s;
+        }
+
+        .posdv {
+            width: 90%;
+            height: 90%;
+            background-color: rgb(46, 26, 26);
+            color: white;
+            left: 15px;
+
+            bottom: 10px;
+
+            opacity: 0%;
+            position: absolute;
+            box-sizing: border-box;
+            ;
+            transition: 0.5s;
+            text-align: center;
+
+        }
+
+        .ldin {
+            font-size: 20px;
+            margin-top: 70px;
+        }
+
+        .SALES:hover .posdv {
+            opacity: 100%;
+        }
+
+        .SALES:hover.SALES img {
+            transform: scale(1.1, 1.1);
+        }
+
+        .firsthnd {
+            color: white;
+            font-size: 50px;
+        }
+
+
+        .sechnd {
+            color: white;
+            font-size: 60px;
+        }
+
+        .secscdv {
+            margin-top: 10%;
+        }
+
+
+
+        .secank {
+            text-decoration: none;
+            color: white;
+            border: solid white 2px;
+            padding: 7px 50px !important;
+        }
+
+        .trddv {
+            margin-top: 15%;
+            margin-bottom: 20%;
+        }
+
+        .secank:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .firstpre {
+            color: gray;
+            font-size: 16px;
+        }
+
+        .trdhnd {
+            color: rgb(86, 81, 81);
+        }
+
+        .firstdard {
+            border: none;
+        }
+
+        .firstcont {
+            margin-top: 15%;
+            margin-bottom: 80px;
+        }
+
+        .trdank {
+            text-decoration: none;
+            padding: 10px 50px;
+            color: black;
+            border: solid 1px white;
+            color: white;
+            transition: 0.5s;
+        }
+
+        @media screen and (min-width: 950px) and (max-width:1200px) {
+            .trdank {
+                padding: 10px 10px;
+            }
+        }
+
+        @media screen and (min-width: 400px) and (max-width:1000px) {
+            .trdank {
+                padding: 10px 10px;
+                font-size: 10px;
+            }
+        }
+
+
+
+
+
+        .frthdv {
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            padding: 50px 0px;
+        }
+
+        .trdset {
+            background-color: #ff6600;
+        }
+
+        .tdschn {
+            color: rgb(240, 232, 232);
+            font-size: 25px;
+            line-height: 35px;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        .trdank:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .forhhnd {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 80px;
+            color: white;
+            position: relative;
+            margin-bottom: 50px;
+            padding: 50px 0px;
+        }
+
+        .forhhnd::before {
+            content: '';
+            background-color: rgb(125, 16, 16);
+            position: absolute;
+            width: 7%;
+            height: 3px;
+            left: 46%;
+            top: 115px;
+        }
+
+
+
+
+
+        .forthank {
+            text-decoration: none;
+            color: black;
+            box-sizing: border-box;
+            color: white;
+        }
+
+
+        .fifthdv {
+            background: #ff6600;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            border-radius: 100%;
+            box-sizing: border-box;
+            padding: 80px 0px;
+            transition: 0.5s;
+            z-index: 100;
+
+
+        }
+
+        .fifthdv:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .sixdv {
+            justify-content: space-around;
+            display: flex;
+            position: relative;
+
+        }
+
+        .rowdiv {
+            text-align: center;
+            margin-bottom: 80px;
+            color: white;
+            margin-top: 50px;
+        }
+
+        .sixsect {
+            background: url(images/BULGING.jpg);
+        }
+
+        .svnsct {
+            background-color: #ff6600;
+        }
+
+        .sevndiv {
+            justify-content: space-around;
+            display: flex;
+            padding: 10px 60px;
+        }
+
+        .sevndv {
+
+            height: 150px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .svnlbl {
+            font-size: 18px;
+        }
+
+        .sevnspn {
+            font-size: 40px;
+        }
+
+        .sevnlbl {
+            font-size: 45px;
+        }
+
+        .firstblok {
+            text-align: center;
+            margin-top: 10%;
+            margin-bottom: 5%;
+            color: white;
+        }
+
+        .eaghtsect {
+            background: url(images/HTODA.jpg);
+            background-position: center;
+        }
+
+        .lastdv {
+            border: none;
+            text-align: center;
+        }
+
+        .lastdv:hover {
+            border-bottom: solid 1px green;
+            border-right: solid 1px green;
+        }
+
+        .eaghtsp {
+            color: gray;
+            margin: 10px;
+            font-size: 15px;
+        }
+
+        .lastpro {
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        .firstspn {
+            margin-bottom: 20px;
+        }
+
+        .lasthnd {
+            color: gray;
+        }
+
+        .finedv {
+            background-color: #ff6600;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .jess {
+            background-color: black;
+            color: white;
+            padding: 50px;
+        }
+
+        .border_box {
+            background-color: orangered;
+            position: absolute;
+            top: 100px;
+            width: 85%;
+            height: 1px;
+            left: 20px;
+        }
+
+        .secborder {
+            background-color: white;
+            position: absolute;
+            width: 80%;
+            height: 1px;
+            top: 100px;
+        }
+
+        .carousel-item {
+            text-align: center;
+            color: white;
+            padding: 100px 0px;
+        }
+
+        .syam {
+            position: absolute;
+            bottom: -130px;
+        }
+
+        .small {
+            background-color: #ff6600;
+            position: fixed;
+            top: -25px;
+            left: 30px;
+            right: 30px;
+            transition: 2s;
+            z-index: 1000;
+            animation: ravi 1s linear;
+        }
+
+        @keyframes ravi {
+            0% {
+                margin-top: -10px;
+            }
+
+            100% {
+                margin-bottom: 100%;
+            }
+
+
+        }
+
+        .navbar-toggler {
+            margin-left: inherit;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="firstsec">
+        <div class="container">
+            <div class="row fisrtdv">
+
+                <div class="col-md-7">
+                    <a href="" class="firstankr"> <span class="firstspn"><i class="bi bi-geo-alt"></i></span>129
+                        Park street, New York City, NY 10903</a>
+                    <a href="" class="firstankr"> <span class="firstspn"><i class="bi bi-phone"></i></span>02151
+                        7778 009 </a>
+                    <a href="" class="firstankr"> <span class="firstspn"><i class="bi bi-alarm"></i></span>Monday -
+                        Friday 08:00am ~ 05:00pm</a>
+
+                </div>
+                <div class="col-md-2">
+                    <a href="" class="firstspn"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="firstspn"><i class="bi bi-dribbble"></i></a>
+                    <a href="" class="firstspn"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="firstspn"><i class="bi bi-linkedin"></i></a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="secsct">
+        <div class="container">
+            <div class="row secdiv">
+
+                <div class="col-md-2">
+
+                    <img src="images/bulding" alt="">
+
+                </div>
+
+                <nav class="navbar navbar-expand-lg col-md-6">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">PROJECTS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">CONTACT</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </nav>
+                <div class="col-md-2">
+
+                    <button type="button" class="btn btn-primary btn-lg buttonsra">Large button</button>
+
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="row">
+                <div class=" secscdv">
+                    <h1 class="firsthnd">BUILDSTATE CONSTRUCTION</h1>
+                    <h2 class="sechnd">We Are Capable</h2>
+
+                    <div class="  trddv">
+                        <a href="" class="secank">More Detail</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="syam">
+                <div class="row row-cols-1 row-cols-md-4 g-4 firstimg ">
+                    <div class="col ">
+                        <div class="card h-100 SALES ">
+                            <img src="https://www.on3-step.com/tf/build/html/img/gallery-home/img2.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="posdv">
+                                <h3 class="ldin">POLISHING BUILDIN</h3>
+                                <p>MORE DETAIL</p>
+                                <div class="border_box">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 SALES">
+                            <img src="https://www.on3-step.com/tf/build/html/img/gallery-home/big/img3.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="posdv">
+                                <h3 class="ldin">POLISHING BUILDIN</h3>
+                                <p>MORE DETAIL</p>
+                                <div class="border_box">
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 SALES">
+                            <img src="https://www.on3-step.com/tf/build/html/img/gallery-home/img3.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="posdv">
+                                <h3 class="ldin">POLISHING BUILDIN</h3>
+                                <p>MORE DETAIL</p>
+
+                                <div class="border_box">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 SALES">
+                            <img src="https://www.on3-step.com/tf/build/html/img/gallery-home/img4.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="posdv">
+                                <h3 class="ldin">POLISHING BUILDIN</h3>
+                                <p>MORE DETAIL</p>
+                                <div class="border_box">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secsation">
+        <div class="container firstcont">
+            <div class="row">
+                <div>
+                    <div>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col" data-aos="fade-up-right">
+                                <div class="card firstdard">
+                                    <img src="images/new house.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title trdhnd">DESIGN & BUILD</h5>
+                                        <p class="card-text firstpre">Qui ut ceteros comprehensam. Cu eos sale sanctus
+                                            eligendi,
+                                            id ius elitr saperet,
+                                            ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet
+                                            perfecto ad qui,
+                                            est rebum nulla argumentum ei.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" data-aos="fade-down">
+                                <div class="card firstdard">
+                                    <img src="images/border house.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title trdhnd">RENOVATION</h5>
+                                        <p class="card-text firstpre">Qui ut ceteros comprehensam. Cu eos sale sanctus
+                                            eligendi,
+                                            id ius elitr saperet,
+                                            ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet
+                                            perfecto ad qui,
+                                            est rebum nulla argumentum ei.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" data-aos="fade-up-left">
+                                <img src="images/carparet house.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title trdhnd">TILING & PAINTING</h5>
+                                    <p class="card-text firstpre">Qui ut ceteros comprehensam. Cu eos sale sanctus
+                                        eligendi,
+                                        id ius elitr saperet,
+                                        ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet
+                                        perfecto ad qui,
+                                        est rebum nulla argumentum ei.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="trdset">
+        <div class="container">
+            <div class="row frthdv">
+
+                <div class="col-md-7">
+                    <h2 class="tdschn">Looking best partner for your next project?</h2>
+                </div>
+                <div class="col-md-2">
+                    <a href="" class="trdank">Let us Know</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="sixsect">
+        <div class="container">
+            <h3 class="forhhnd">How we work</h3>
+            <div class="row sixdv" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+
+
+                <div class="secborder">
+
+                </div>
+                <div class="col-md-3 fifthdv" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <a href="" class="forthank">Planing</a>
+
+
+                </div>
+
+                <div class="col-md-3 fifthdv" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <a href="" class="forthank">Conscept Desings</a>
+
+                </div>
+                <div class="col-md-3 fifthdv" data-aos="zoom-out-left">
+                    <a href="" class="forthank">Construct</a>
+
+                </div>
+                <div class="col-md-3 fifthdv" data-aos="zoom-out-left">
+                    <a href="" class="forthank">Finishing</a>
+
+                </div>
+
+
+                <div class="rowdiv">
+                    <p>Maecenas justo neque, efficitur sit amet scelerisque eu, ornare a justo.
+                        Morbi scelerisque ex ut consequat vestibulum. Cum sociis natoque penatibus et magnis dis
+                        parturient montes,
+                        nascetur ridiculus mus. Praesent vel augue rutrum, scelerisque velit non, interdum nisl.
+                        Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue. Cras egestas neque vitae
+                        dui tincidunt,
+                        vitae tristique tellus volutpat. Fusce justo ante, interdum in augue in, commodo imperdiet
+                        turpis.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="svnsct">
+        <div class="container">
+            <div class="row sevndiv">
+
+                <div class="col-md-3 sevndv" data-aos="zoom-in-right">
+                    <div>
+                        <span class="sevnspn"><i class="bi bi-alarm"></i></span>
+                    </div>
+                    <div>
+                        <label for="" class="sevnlbl">1822</label>
+                    </div>
+                    <div>
+                        <label for="" class="svnlbl">Hour Works</label>
+                    </div>
+
+                </div>
+                <div class="col-md-3 sevndv" data-aos="zoom-out">
+                    <div>
+                        <span class="sevnspn"><i class="bi bi-file-earmark-break"></i></span>
+                    </div>
+                    <div>
+                        <label for="" class="sevnlbl">922</label>
+                    </div>
+                    <div>
+                        <label for="" class="svnlbl">Projects Complete</label>
+                    </div>
+
+                </div>
+                <div class="col-md-3 sevndv" data-aos="zoom-out">
+                    <div>
+                        <span class="sevnspn"><i class="bi bi-balloon"></i></span>
+                    </div>
+                    <div>
+                        <label for="" class="sevnlbl">600</label>
+                    </div>
+                    <div>
+                        <label for="" class="svnlbl">Clients repeat</label>
+                    </div>
+
+                </div>
+                <div class="col-md-3 sevndv" data-aos="zoom-in-left">
+                    <div>
+                        <span class="sevnspn"><i class="bi bi-windows"></i></span>
+                    </div>
+                    <div>
+                        <label for="" class="sevnlbl">432</label>
+                    </div>
+                    <div>
+                        <label for="" class="svnlbl">Clients satisfied</label>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="eaghtsect">
+        <div class="container">
+            <div class="row">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="d-block w-100">first sliede </h1>
+                            <p>Look famous. Be legendary. Appear complex. Act easy. Radiate presence. Travel light. Seem
+                                a dream. Prove real.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="d-block w-100">Scond sliede </h1>
+                            <p>Look famous. Be legendary. Appear complex. Act easy. Radiate presence. Travel light. Seem
+                                a dream. Prove real.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="d-block w-100">Third sliede </h1>
+                            <p>Look famous. Be legendary. Appear complex. Act easy. Radiate presence. Travel light. Seem
+                                a dream. Prove real.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div>
+                        <div class="row row-cols-1 row-cols-md-4 g-4 lastpro">
+                            <div class="col">
+                                <div class="card h-40 lastdv">
+                                    <img src="https://www.on3-step.com/tf/build/html/img/team-img1.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title lasthnd">Steve Makelew</h5>
+                                        <p class="card-text lasthnd">C E O</p>
+                                    </div>
+                                    <div class="firstspn">
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-facebook"></i></span></a>
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-twitter"></i></span></a>
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-linkedin"></i></span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-40 lastdv">
+                                    <img src="https://www.on3-step.com/tf/build/html/img/team-img4.jpg"" class="
+                                        card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Renita</h5>
+                                        <p class="card-text">Project Director</p>
+                                    </div>
+                                    <div class="firstspn">
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-facebook"></i></span></a>
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-twitter"></i></span></a>
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-linkedin"></i></span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-40 lastdv">
+                                    <img src="https://www.on3-step.com/tf/build/html/img/team-img3.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">John Doe</h5>
+                                        <p class="card-text">Project Manager</p>
+                                    </div>
+                                    <div class="firstspn">
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-facebook"></i></span></a>
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-twitter"></i></span></a>
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-linkedin"></i></span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-40 lastdv">
+                                    <img src="https://www.on3-step.com/tf/build/html/img/team-img2.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jess Parker</h5>
+                                        <p class="card-text">Bussines Dev</p>
+                                    </div>
+                                    <div class="firstspn">
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-facebook"></i></span></a>
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-twitter"></i></span></a>
+                                        <a href=""><span class="eaghtsp"><i class="bi bi-linkedin"></i></span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jess">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div class="col-md-3">
+                        <div>
+                            <img src="images/bulding" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis.
+                            Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante, malesuada id,
+                            tempor eu, gravida id, odio. Maecenas suscipit, risus et eleifend imperdiet, nisi orci
+                            ullamcorper
+                            massa adipiscing.
+                        </p>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 150) {
+                $('.secdiv').addClass("small");
+            } else {
+                $('.secdiv').removeClass("small");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

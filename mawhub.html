@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .attend {
+            padding: 25px 30px;
+            border: none;
+            background-color: antiquewhite;
+        }
+
+        .firstdiv {
+            background-color: aqua;
+        }
+
+        .nav-item {
+            margin: 20px;
+        }
+
+        .for {
+            font-size: 20px;
+        }
+
+        .meena {
+            align-items: center;
+        }
+
+        .veer {
+            margin: 10px;
+            font-size: 20px;
+        }
+
+        .nellu {
+            text-align: end;
+        }
+
+        .sop {
+            font-size: 35px;
+        }
+
+        .dukan {
+            line-height: 25px;
+            color: gray;
+            margin-top: 25px;
+        }
+
+
+
+        .banti {
+            text-align: end;
+        }
+
+        .yes {
+            margin-top: 50px;
+        }
+
+        .prakash {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .form {
+            border-radius: 100%;
+        }
+
+        .manish {
+            justify-content: end;
+        }
+
+        .ram {
+            align-items: center;
+        }
+
+        .elit {
+            line-height: 30px;
+        }
+
+        .lkn {
+            border-radius: 50%;
+            background-color: aqua;
+        }
+
+        .surye {
+            padding: 10px;
+        }
+
+        .isk {
+            margin-top: 70px;
+        }
+
+        .riten {
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        .rites {
+            background-color: aqua;
+        }
+
+        .card-body {
+            text-align: center;
+            line-height: 40px;
+            margin-top: 25px;
+        }
+
+        .card-img-topr {
+            border-radius: 50%;
+        }
+
+        .totle {
+            margin-top: 50px;
+        }
+
+        .isan {
+            text-align: center;
+            margin: auto;
+            color: white;
+            margin-top: 80px;
+        }
+
+        .lalawat {
+            margin-top: 80px;
+        }
+
+        .img {
+            background: url(images/rsvp-bg.jpg);
+            background-attachment: fixed;
+        }
+
+        .teja {
+            width: 48%;
+            padding: 16px 0px;
+            margin: 10px;
+            border: none;
+            background: none;
+            border-bottom: solid 1px white;
+
+        }
+
+        .aashu {
+            width: 99%;
+            box-sizing: border-box;
+            padding: 16px 0px;
+            margin: 10px;
+            border: none;
+            background: none;
+            border-bottom: solid 1px white;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .nitin {
+            color: white;
+        }
+
+        .emli {
+            margin-top: 30px;
+        }
+
+        .rmn {
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn-lg {
+            padding: 13px 40px;
+            margin: auto;
+            background-color: #C8A898;
+            color: white;
+        }
+
+        .himan {
+            text-align: center;
+            margin-top: 40px;
+            padding-bottom: 8%;
+        }
+
+        .rika {
+            margin-top: 80px;
+        }
+
+        .suresh {
+            background: url(images/cta2.jpg);
+        }
+
+        .tiraj {
+            color: white;
+            text-align: center;
+            margin: auto;
+            padding: 100px 0px;
+        }
+
+        .putr {
+            text-align: center;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        .by {
+            list-style: none;
+        }
+
+        .loura {
+            text-decoration: none;
+            color: black;
+        }
+
+        .top {
+            text-align: center;
+        }
+
+        .more {
+            text-align: center;
+        }
+
+        .card-img-top {
+
+            transition: 1s;
+        }
+
+
+
+        .card {
+            transition: 1s;
+        }
+
+        .card:hover .tere {
+            transform: scale(1.1, 1.1);
+        }
+
+
+
+        .bluebox {
+            transition: 1s !important;
+            transform: scale(0, 0);
+
+
+        }
+
+        .blackbox {
+            transition: 1s !important;
+
+        }
+
+        .blackbox:hover .bluebox {
+
+            transform: scale(1, 1);
+        }
+
+        .black-box {
+            transition: 0.4s !important;
+            transform: scale(0, 0);
+        }
+
+        .main-box:hover .black-box {
+            transform: scale(1, 1);
+        }
+
+        .nmo {
+            transform: scale(0, 0);
+            transition: 0.3s;
+        }
+
+        .ker:hover .nmo {
+            transform: scale(1, 1);
+        }
+
+        .card-img-top {
+            transition: 0.3s;
+        }
+
+        .card-img-top:hover {
+            transform: rotate(10deg);
+        }
+
+        .card-img-top:hover {
+            transform: scale(1.1, 1.1);
+        }
+
+        .card {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row meena">
+                <div class="col-md-2 firstdiv">
+                    <h1>Mawhub</h1>
+                </div>
+                <div class="col-md-7">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">COUPLE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">STORY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">GALLERY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">RAVP</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">EVANTS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-2 ravi">
+                    <label for="" class="for"><i class="bi bi-search"></i></label>
+                    <button type="button" class="attend" aria-colcount="">Aattend Now</button>
+
+                </div>
+
+
+            </div>
+            <div class="row yes">
+                <div class="col-md-3">
+                    <h2 class="sop">Sophia Miles</h2>
+                    <p class="dukan">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Urna orci auctor vitae nisl. fringilla pellesque amet tempus.
+                    </p>
+                    <div class="nellu">
+                        <label for="" class="veer"><i class="bi bi-facebook"></i></label>
+                        <label for="" class="veer"><i class="bi bi-twitter"></i></label>
+                        <label for="" class="veer"><i class="bi bi-instagram"></i></label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://wpocean.com/html/tf/mawhub-live/assets/images/couple/1.jpg" alt="" width="100%">
+                </div>
+                <div class="col-md-3 banti">
+                    <h2 class="sop">Oliver Zonas</h2>
+                    <p class="dukan">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Urna orci auctor vitae nisl. fringilla pellesque amet tempus.
+                    </p>
+                    <div>
+                        <label for="" class="veer"><i class="bi bi-facebook"></i></label>
+                        <label for="" class="veer"><i class="bi bi-twitter"></i></label>
+                        <label for="" class="veer"><i class="bi bi-instagram"></i></label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="prakash">
+                <h4>Our Story</h4>
+                <h2>How it Happened</h2>
+            </div>
+            <div class="row ram">
+                <div class="col-md-5">
+                    <img src="https://wpocean.com/html/tf/mawhub-live/assets/images/story/1.jpg" alt="" width="100%"
+                        class="form">
+                </div>
+                <div class="col-md-4 bg-body-tertiary ">
+                    <p>15 June, 2014</p>
+                    <h3>How we meet</h3>
+                    <p class="elit">Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed.
+                        Enim tortor, faucibus netus orci donec volutpat adipiscing.
+                    </p>
+                </div>
+
+            </div>
+            <div class="row ram manish">
+                <div class="col-md-4 bg-body-tertiary">
+                    <p>02 Nov, 2020</p>
+                    <h3>He proposed, I said yes</h3>
+                    <p class="elit">Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed.
+                        Enim tortor, faucibus netus orci donec volutpat adipiscing.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://wpocean.com/html/tf/mawhub-live/assets/images/couple/1.jpg" alt="" width="100%"
+                        class="form">
+                </div>
+            </div>
+            <div class="row ram">
+                <div class="col-md-5">
+                    <img src="https://wpocean.com/html/tf/mawhub-live/assets/images/couple/1.jpg" alt="" width="100%"
+                        class="form">
+                </div>
+                <div class="col-md-4 bg-body-tertiary ">
+                    <p>15 June, 2014</p>
+                    <h3>How we meet</h3>
+                    <p class="elit">Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed.
+                        Enim tortor, faucibus netus orci donec volutpat adipiscing.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="isk">
+                <div class="row row-cols-1 row-cols-md-3 g-4 surye">
+                    <div class="col">
+                        <div class="card main-box" style="position: relative;">
+                            <img src="images/1.jpg " class="card-img-top hvr-rectangle-out" alt="">
+                            <div class="black-box"
+                                style="position: absolute;background: #fff;opacity: 80%;width: 93%;height: 93%;left: 15px;top: 15px;">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card main-box" style="position: relative;">
+                            <img src="images/2.jpg" class="card-img-top" alt="...">
+                            <div class="black-box"
+                                style="position: absolute;background: black;opacity: 50%;width: 100%;height: 100%;">
+                                jkfks
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col ker" style="position: relative;">
+                        <div class="card">
+                            <img src="images/3.jpg" class="card-img-top" alt="...">
+                            <div class="nmo"
+                                style="position: absolute;background: whitesmoke;opacity: 80%;width: 93%;height: 93%;left: 15px;top: 15px;">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 surye">
+                    <div class="col">
+                        <div class="card" style="position: relative;">
+                            <img src="images/4.jpg" class="card-img-top" alt="...">
+
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/5.jpg" class="card-img-top" alt="...">
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/6.jpg" class="card-img-top" alt="...">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="rites">
+                <div class="col-md-5 riten">
+                    <h4>Our Organizers</h4>
+                    <h1>Awesome Team Member</h1>
+                </div>
+            </div>
+
+            <div class="totle">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div>
+                            <img src="images/img-1.jpg" class="card-img-topr" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Margarate Bennet</h3>
+                                <p class="card-text">Bridesmaids</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="images/img-2.jpg" class="card-img-topr" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Robert William </h3>
+                                <p class="card-text">Best Friend</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="images/img-3.jpg" class="card-img-topr" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Henry Dsuza </h3>
+                                <p class="card-text">TBridesmaids</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="images/img-4.jpg" class="card-img-topr" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Jenefer Abram </h3>
+                                <p class="card-text">Friend</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="img">
+        <div class="container lalawat">
+            <div class="row isan">
+                <div class="col-md-4 isan">
+                    <h1>Make an Inquiry</h1>
+                    <p>We Will Be Very Happy if You Join Our Big Day.
+                        We are Waiting For You.
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-12 nitin">
+                <input type="text" placeholder="Name" class="teja">
+                <input type="text" placeholder="Email" class="teja">
+
+                <div class="row emli">
+                    <div class="col-md-6">
+                        <input type="checkbox">
+                        <a href="" class="rmn">Yes, i will be there</a>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="checkbox">
+                        <a href="" class="rmn">Yes, i will be there</a>
+                    </div>
+                </div>
+                <input type="number" placeholder="ymraj" class="teja">
+                <input type="text" placeholder="what will you be Attending" class="teja">
+                <select name="" id="" class="aashu">
+                    <option value="">meal perferncess</option>
+                    <option value="">cilick shop</option>
+                    <option value="">mix slad</option>
+                    <option value="">beef ribes</option>
+                </select>
+                <div class="himan">
+                    <button type="button" class="btn-lg"
+                        style="position: fixed;top: 20px;left: 20px;z-index: 1000;">RSVP</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="rika">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/1 (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/2 (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/3 (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="suresh">
+        <div class="container">
+            <div class="col-md-4 tiraj">
+                <h2>We Cant Wait To See You</h2>
+                <p>We Will Be Very Happy if You Join Our Big Day.
+                    We are Waiting For You.
+                </p>
+                <button type="button" class="btn-lg">RSVP</button>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="putr">
+                <h5>Our Blog</h5>
+                <h2>Our Latest Wedding News</h2>
+            </div>
+            <div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/img-1 (1).jpg" class="card-img-top" alt="...">
+                            <div>
+                                <ul>
+                                    <li class="by"> By<a href="" class="loura"> Loura Sweety</a></li>
+                                    <li>25 Sep 2023</li>
+                                </ul>
+                                <div class="top">
+                                    <h2><a href="" class="loura">Top 10 wedding bouquet arranging idea</a></h2>
+                                    <a href="" class="loura more">Read More...</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/img-2 (1).jpg" class="card-img-top" alt="...">
+                            <div>
+                                <ul>
+                                    <li class="by"> By<a href="" class="loura"> Loura Sweety</a></li>
+                                    <li>25 Sep 2023</li>
+                                </ul>
+                                <div class="top">
+                                    <h2><a href="" class="loura">Top 10 wedding bouquet arranging idea</a></h2>
+                                    <a href="" class="loura more">Read More...</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/img-3 (1).jpg" class="card-img-top" alt="...">
+                            <div>
+                                <ul>
+                                    <li class="by"> By<a href="" class="loura"> Loura Sweety</a></li>
+                                    <li>25 Sep 2023</li>
+                                </ul>
+                                <div class="top">
+                                    <h2><a href="" class="loura">Top 10 wedding bouquet arranging idea</a></h2>
+                                    <a href="" class="loura more">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="blackbox" style="width: 300px;height: 300px;background: #000;position: relative;">
+                hii
+                <div class="bluebox" style="width: 100%;height: 100%;background-color: blue;position: absolute;">
+                    cg
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

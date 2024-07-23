@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+        .ravi {
+            background-color: orange !important;
+            animation: ravi 1s linear;
+
+        }
+
+        @keyframes ravi {
+            0% {
+                margin-top: -50px;
+            }
+
+            100% {
+
+                margin-top: 0;
+            }
+        }
+
+        .secsct {
+            background: url(images/BACKGROUND\ IMGS.jpg);
+            background-position: center;
+        }
+
+        .firstsec {
+            background-color: black;
+            position: fixed;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+
+        .fisrtdv {
+            justify-content: space-between;
+            display: flex;
+            padding: 10px;
+            align-items: center;
+        }
+
+        .firstankr {
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+            margin: 3px;
+            transition: 0.5s;
+        }
+
+        .firstspn {
+            margin: 7px;
+            font-size: 12px;
+            color: rgb(223, 76, 76);
+            transition: 0.5s;
+        }
+
+        .secdiv {
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+
+        }
+
+        .fsctdv::before {
+            content: '';
+            background-color: white;
+            position: absolute;
+            width: 70%;
+            height: 0.5px;
+            top: 45%;
+            opacity: 20%;
+            left: 200px;
+
+        }
+
+        .fsctdv {
+            text-align: center;
+            position: relative;
+        }
+
+
+
+        .secart {
+            margin: 10px;
+            color: white !important;
+            transition: 0.5s;
+        }
+
+        .firsthh {
+            color: white;
+            margin: 20px;
+        }
+
+
+        .hfdv {
+            margin-top: 60px;
+            color: white;
+            font-size: 12px;
+        }
+
+
+        .ram {
+            position: relative;
+
+        }
+
+        @media (min-width: 280px) and (max-width: 740px) {
+            .ram {
+                box-sizing: border-box;
+                font-size: 10px;
+                text-align: center;
+            }
+
+        }
+
+
+
+
+
+
+
+
+        .ram::before {
+            content: '';
+            background-color: #ff6600;
+            width: 5%;
+            height: 2%;
+            position: absolute;
+            top: 73%;
+            left: 47%;
+            z-index: 30;
+            animation: projectScroll 10s infinite;
+        }
+
+        @keyframes projectScroll {
+            0% {
+                left: 47%;
+            }
+
+            25% {
+                left: 81%;
+            }
+
+            50% {
+                left: 15%;
+            }
+
+            100% {
+                right: 47%;
+            }
+        }
+
+        @media (min-width: 280px) and (max-width: 760px) {
+            .ram::before {
+                top: 76%;
+                right: 30%;
+            }
+
+            .fsctdv::before {
+                right: 30%;
+                left: 15%;
+            }
+        }
+
+        @media (min-width: 760px) and (max-width: 1000px) {
+            .ram::before {
+                top: 71%;
+                right: 30%;
+            }
+
+            .fsctdv::before {
+                right: 30%;
+                left: 15%;
+            }
+        }
+
+        @media (min-width: 1000px) and (max-width: 1200px) {
+            .ram::before {
+                top: 76%;
+                right: 30%;
+            }
+
+            .fsctdv::before {
+                right: 30%;
+                left: 15%;
+            }
+        }
+
+        @media (min-width: 1200px) and (max-width: 1210px) {
+            .ram::before {
+                top: 73%;
+                right: 30%;
+            }
+
+            .fsctdv::before {
+                right: 30%;
+                left: 15%;
+            }
+        }
+
+        .ank {
+            text-decoration: none;
+            color: #ff6600;
+        }
+
+        .secston {
+            padding: 80px 0px;
+        }
+
+        .TRDDV {
+            padding: 80px 0px;
+            color: gray;background-color: aqua;padding: 40px;
+        }
+
+        @media screen and (min-width : 280px) and (max-width : 520px) {
+            .TRDDV {}
+       
+         
+        }
+
+        .fftdv {
+            padding-left: 80px;
+            padding-right: 15px;
+            background-color: whitesmoke;
+            padding: 35px;
+        }
+
+        .sym {
+            margin-left: 20px;
+        }
+
+        .syam {
+            margin-bottom: 10%;
+        }
+
+        .posdv {
+            width: 90%;
+            height: 90%;
+            background-color: rgb(46, 26, 26);
+            color: white;
+            left: 15px;
+
+            bottom: 10px;
+
+            opacity: 0%;
+            position: absolute;
+            box-sizing: border-box;
+            ;
+            transition: 0.5s;
+            text-align: center;
+
+        }
+
+        .border_box {
+            background-color: orangered;
+            position: absolute;
+            top: 100px;
+            width: 85%;
+            height: 1px;
+            left: 20px;
+        }
+
+        .ldin {
+            font-size: 20px;
+            margin-top: 70px;
+        }
+
+
+        .SALES {
+            position: relative;
+            overflow: hidden;
+
+
+        }
+
+        .SALES img {
+            transition: 0.5s;
+        }
+
+        .SALES:hover .posdv {
+            opacity: 100%;
+        }
+
+        .SALES:hover.SALES img {
+            transform: scale(1.1, 1.1);
+        }
+
+        .LSFNSECT {
+            background-color: black;
+            padding: 70px;
+        }
+
+        .lastdv {
+            justify-content: space-between;
+            display: flex;
+            line-height: 17px;
+        }
+
+        .divfrist {
+            background-color: #ff6600;
+            text-align: center;
+            height: 50px;
+        }
+
+        .lstank {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            justify-content: end;
+        }
+
+        .lastspn {
+            font-size: 18px;
+            color: white;
+        }
+
+        .spndv {
+            line-height: 40px;
+            color: white;
+        }
+
+        .lstpre {
+            color: white;
+        }
+
+        .lsthnd {
+            color: white;
+        }
+
+        @media screen and (min-width : 280px) and (max-width : 520px) {
+            .firstsec {
+                display: none;
+            }
+
+            .TRDDV {
+                font: optional;
+            }
+        }
+        @media screen and (min-width : 1000px) and (max-width : 1200px) {
+            .firstankr {font-size: 10px;}
+        }
+        @media screen and (min-width : 500px) and (max-width : 1000px) {
+            .firstankr {font-size: 10px;width: 20%;}
+
+        }
+            
+
+        .carousel-inner {background-color: #ff6600;}
+        .PERA {padding: 30px;}
+        .card-img-top {width: 100%;}
+        .navbar-toggler {background-color: white; margin-left: auto;}
+        .secimg {width: 70%;}
+        .secdiv {}
+    </style>
+</head>
+
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <section class="firstsec">
+        <div class="container">
+            <div class="row">
+                <div class="fisrtdv" id="firstdv">
+                    <div class="col-md-7">
+                        <a href="" class="firstankr"> <span class="firstspn"><i class="bi bi-geo-alt"></i></span>129
+                            Park street, New York City, NY 10903</a>
+                        <a href="" class="firstankr"> <span class="firstspn"><i class="bi bi-phone"></i></span>02151
+                            7778 009 </a>
+                        <a href="" class="firstankr"> <span class="firstspn"><i class="bi bi-alarm"></i></span>Monday -
+                            Friday 08:00am ~ 05:00pm</a>
+
+                    </div>
+                    <div class="col-md-2">
+                        <a href="" class="firstspn"><i class="bi bi-facebook"></i></a>
+                        <a href="" class="firstspn"><i class="bi bi-dribbble"></i></a>
+                        <a href="" class="firstspn"><i class="bi bi-twitter"></i></a>
+                        <a href="" class="firstspn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="secsct">
+        <div class="container ram ">
+            <div class="row secdiv">
+
+
+
+
+                <div class="col-md-2">
+
+                    <img src="images/bulding" alt="" class="secimg">
+
+                </div>
+
+                <nav class="navbar navbar-expand-lg col-md-8">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">PROJECTS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active secart" aria-current="page" href="#">CONTACT</a>
+                                </li>
+
+                            </ul>
+                            <span class="navbar-text">
+                                <button type="button" class="btn btn-primary btn-lg" id="btn">Large button</button>
+
+                            </span>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+
+
+
+            </div>
+            <div class="fsctdv">
+                <h1 class="firsthh" id="ctc">PROJECTS DETAIL</h1>
+
+                <h4 class="hfdv"><a href="" class="ank">HOME</a> <span class="sym">\</span><span
+                        class="firsthh">OVERVIEW</span></h4>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row secston">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.on3-step.com/tf/build/html/img/projects/projects-detail/fullimage1.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.on3-step.com/tf/build/html/img/projects/projects-detail/fullimage2.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.on3-step.com/tf/build/html/img/projects/projects-detail/fullimage3.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="col-md-8 TRDDV  " data-aos="fade-right">
+                    <h2>Constructions Overview</h2>
+                    <p class="PERA">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore
+                        magnaaliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea
+                        commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat
+                        nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.Lorem ipsum dolor
+                        sit amet,
+                        consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad
+                        minimveniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa cupidatat non proident, sunt in
+                        culpa.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore.
+                    </p>
+                    <p class="PERA">cupidatat non proident, sunt in culpa cupidatat non proident, sunt in culpa.Lorem ipsum dolor sit
+                        amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    </p>
+                    <p class="PERA">Excepteur sint occaecat cupidatat non proident, sunt in culpa cupidatat non proident, sunt in
+                        culpa.Lorem ipsum dolor
+                        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. cupidatat non
+                        proident,
+                        sunt in culpa cupidatat non proident, sunt in culpa.Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore.
+                    </p>
+                </div>
+                <div class="col-md-4 TRDDV" data-aos="fade-left">
+                    <div class="fftdv">
+                        <h2>Projects Detail</h2>
+                        <span>Categories: Architec, Renovation, Tilling</span>
+                        <span>Client: Johny Dono</span>
+                        <span>Date: Apr 05, 2017</span>
+                        <span>Budget: $ 8,00,000 </span>
+                        <span>Duration: 6 Months</span>
+                        <span>Tags: Commercial</span>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="syam" data-aos="zoom-out-up">
+                <div class="row row-cols-1 row-cols-md-4 g-4 firstimg ">
+                    <div class="col ">
+                        <div class="card h-100 SALES ">
+                            <img src="https://www.on3-step.com/tf/build/html/img/gallery-home/img2.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="posdv">
+                                <h3 class="ldin">POLISHING BUILDIN</h3>
+                                <p>MORE DETAIL</p>
+                                <div class="border_box">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 SALES">
+                            <img src="https://www.on3-step.com/tf/build/html/img/gallery-home/big/img3.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="posdv">
+                                <h3 class="ldin">POLISHING BUILDIN</h3>
+                                <p>MORE DETAIL</p>
+                                <div class="border_box">
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 SALES">
+                            <img src="https://www.on3-step.com/tf/build/html/img/gallery-home/img3.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="posdv">
+                                <h3 class="ldin">POLISHING BUILDIN</h3>
+                                <p>MORE DETAIL</p>
+
+                                <div class="border_box">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 SALES">
+                            <img src="https://www.on3-step.com/tf/build/html/img/gallery-home/img4.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="posdv">
+                                <h3 class="ldin">POLISHING BUILDIN</h3>
+                                <p>MORE DETAIL</p>
+                                <div class="border_box">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="LSFNSECT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/bulding" alt="">
+                    <p class="lstpre">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis.
+                        Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante,
+                        malesuada id, tempor eu, gravida id, odio. Maecenas suscipit, risus et eleifend imperdiet,
+                        nisi orci ullamcorper massa adipiscing.
+                    </p>
+
+                </div>
+                <div class="col-md-3">
+                    <h4 class="lsthnd">RECENT POSTS</h4>
+                    <div class="lastdv">
+                        <div class="col-md-2 divfrist">
+                            <span class="lastspn">22</span>
+                            <span class="lastspn">APR</span>
+
+                        </div>
+                        <P style="text-align: end;"><a href="" class="lstank">
+                                Donec mollis. Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante
+                            </a></P>
+                    </div>
+                    <div class="lastdv">
+                        <div class="col-md-2 divfrist">
+                            <span class="lastspn">22</span>
+                            <span class="lastspn">APR</span>
+
+                        </div>
+                        <P style="text-align: end;"><a href="" class="lstank">
+                                Donec mollis. Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante
+                            </a></P>
+                    </div>
+                    <div class="lastdv">
+                        <div class="col-md-2 divfrist">
+                            <span class="lastspn">22</span>
+                            <span class="lastspn">APR</span>
+
+                        </div>
+                        <P style="text-align: end;"><a href="" class="lstank">
+                                Donec mollis. Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante
+                            </a></P>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+                    <h4 class="lsthnd">CONTACT INFO</h4>
+                    <div class="spndv">
+                        <span class="finlspn">129 Park street, New York City, NY 10903</span>
+                        <span class="finlspn">PHONE: (+6221) 000 888 999</span>
+                        <span class="finlspn">EMAIL:=companyname@gmail.com</span>
+                        <span class="finlspn">SITE:=www.companyname.com</span>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="lsthnd">PHOTO STREAM</h4>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                $("#ctc").hide();
+            });
+
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    $('.firstsec').addClass('ravi');
+                } else {
+                    $('.firstsec').removeClass('ravi');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

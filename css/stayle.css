@@ -1,0 +1,145 @@
+.fstul {
+    list-style: none;
+    display: flex;
+}
+
+.fstlist {
+    text-decoration: none;
+    color: black;
+    margin: 13px;
+}
+
+.fstdv {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    border: solid 1px green;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+
+
+}
+
+.prakash {
+    background-color: red;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -50px;
+    z-index: 100;
+    animation: rakesh linear 1s;
+}
+
+@keyframes rakesh {
+    0% {
+        margin-top: -50px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
+}
+
+
+
+.fstimg {
+    margin-left: 25px;
+}
+
+.dvbtn {
+    margin-right: 50px !important;
+}
+
+.sechdv {
+    margin: auto;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.secdvsect {
+    background-color: blueviolet;
+}
+
+.fstspn {
+    font-size: 60px;
+}
+
+.scdspn {
+    font-size: 40px;
+}
+
+.sch {
+    font-size: 50px;
+}
+
+.spnfst {
+    font-size: 20px;
+}
+
+.secrow {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.the {
+    font-size: 50px;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.secbtn {
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.ravi {
+    padding: 20px 30px;
+}
+
+.trdrow {
+    margin: auto;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.card1 {
+    position: relative;overflow: hidden;
+}
+
+.view {
+    text-align: center;
+    background-color: bisque;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 87%;
+    padding: 20px 0px;
+    opacity: 0%;
+    transition: 1s;
+    margin-right:    40px;
+
+}
+
+.card1:hover .view {
+    opacity: 100%;
+    margin-right:    0px;
+
+
+
+}
+.lastrow {margin: auto;text-align: center; margin-top: 50px; margin-bottom: 20px;}
+.forsect {margin: auto; text-align: center;margin-top: 40px;}
+.fstpera {font-size: 20px;}
